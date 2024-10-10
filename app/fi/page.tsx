@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import img1 from '../../images/drive_thru.jpg';
+
 import { RiVoiceprintLine } from "react-icons/ri";
 import { GrCloudComputer } from "react-icons/gr";
 import { GiClick } from "react-icons/gi";
@@ -22,7 +22,7 @@ export default function Home() {
                 </div>
             </div>
             
-            <img src={img1.src} alt="curve" className="rounded-lg w-64 mt-8 md:mt-0" style={{userSelect: 'none'}} />
+
         </div>
 
     
