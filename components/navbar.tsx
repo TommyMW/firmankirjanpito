@@ -17,8 +17,8 @@ const toggleDropdown = () => {
     return (
         
         <div className='z-10 top-0 mt-4 w-full'>
-            <header className="z-10 top-0 flex justify-between items-center px-4 md:px-10 py-4 bg-[#ffffff]" style={{ fontFamily: '"Space Mono", monospace' }}>
-                <a href="/" className="text-3xl ml-[19%] text-black">
+            <header className="z-10 top-0 flex justify-between items-center px-4 md:px-10 py-4 bg-[#ffffff]">
+                <a href="/" className="text-3xl md:ml-[19%] ml-5% text-black">
                     <img src={logo.src} alt="FirmanKirjanPito.fi" className="h-10" style={{userSelect: 'none'}} />
                 </a>
                 
@@ -56,8 +56,8 @@ const toggleDropdown = () => {
             
             {mobileMenuOpen && (
                 <div className="md:hidden bg-white py-0 px-4">
-                    <a href="/demo" className="block py-0 text-lg text-right text-black">View Demo</a>
-                    <a href="/contact" className="block py-2 text-lg text-right text-black">Contact Us</a>
+                    <a href="/demo" className="block py-0 text-lg text-right text-black">Pyydä Tarjous</a>
+                    <a href="/contact" className="block py-2 text-lg text-right text-black">Rekisteröidy</a>
                 </div>
             )}
         </div>
