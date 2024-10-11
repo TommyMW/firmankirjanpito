@@ -18,7 +18,7 @@ export default function Home() {
 
             {/* <img src={us.src} alt="US Flag" className="absolute left-0 top-1/2 transform -translate-y-1/2 w-[420px] ml-[4%] pt-20 hidden md:block" style={{ userSelect: 'none', opacity: 0.1 }} /> */}
 
-            <div className="container mx-auto p-8 flex flex-col md:flex-row items-center justify-center h-full mt-32 md:mt-0">
+            <div className="container mx-auto p-8 flex flex-col md:flex-row items-center justify-center h-full mt-0 md:mt-28">
                 <div className="content z-10 md:w-1/2 text-center md:text-left mt-20">
                     <h1 className="text-6xl font-bold mb-4 text-black">Tee-Se-Itse-Kirjanpito-Ohjelmisto</h1>
                     <p className="text-lg mb-6 w-[90%] mx-auto md:mx-0 text-black">Saat automaattisesti johdon raportit, kuten taseet ja tuloslaskelmat, valmiiksi.
@@ -38,7 +38,12 @@ export default function Home() {
                     </div>
                 </div>
                 
-                <img src={img1.src} alt="curve" className="rounded-lg w-80 mt-16 z-10 hidden md:block" style={{userSelect: 'none'}} />
+                <img 
+                src={img1.src} 
+                alt="curve" 
+                className="rounded-lg w-40 sm:w-60 md:w-80 mt-16 z-10" 
+                style={{ userSelect: 'none' }} 
+                />
             </div>
 
  
@@ -79,10 +84,11 @@ export default function Home() {
             <h1 className="text-3xl font-bold mb-4 text-center text-black mt-24">
                 Mikäli tarvit apua niin ole meihin yhteydessä!
             </h1>
-            <p className="text-lg text-gray-600 mt-6 mb-8 text-center w-[900px] mx-auto">
-              Tämän jälkeen kokeneet kirjanpitäjämme käyvät merkinnäsi läpi ja hyväksyvät ne tai kysyvät tarvittaessa lisätietoja, jotta kirjanpitosi vastaa kansallisten kirjanpitolakien, verolakien ja veroviraston vaatimuksia, 
-              kuten liitteiden lähettäminen oikeassa muodossa veroilmoituksissa.
+            <p className="text-lg text-gray-600 mt-6 mb-8 text-center max-w-full md:max-w-[900px] mx-auto px-4">
+                Tämän jälkeen kokeneet kirjanpitäjämme käyvät merkinnäsi läpi ja hyväksyvät ne tai kysyvät tarvittaessa lisätietoja, jotta kirjanpitosi vastaa kansallisten kirjanpitolakien, verolakien ja veroviraston vaatimuksia, 
+                kuten liitteiden lähettäminen oikeassa muodossa veroilmoituksissa.
             </p>
+
             
 
             <div className="text-center mt-16">

@@ -38,19 +38,19 @@ export default function Home() {
             <div className="container mx-auto w-[80%] mb-12 mt-16">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
                     <div className="bg-white rounded-lg p-6 shadow-md text-center flex flex-col items-center">
-                        <div className="text-4xl text-green-700 mb-4" />
+                        <GrCloudComputer className="text-4xl text-green-700 mb-4" />
                         <h3 className="text-2xl font-semibold mb-3">No Upfront Costs</h3>
                         <p className="text-gray-600 mb-4">Our technology seamlessly integrates with existing drive-thru systems, saving you time and money.</p>
                     </div>
 
                     <div className="bg-white rounded-lg p-6 shadow-md text-center flex flex-col items-center">
-                        <div className="text-4xl text-blue-800 mb-4" />
+                        <RiVoiceprintLine className="text-4xl text-blue-800 mb-4" />
                         <h3 className="text-2xl font-semibold mb-3">Your Menu Items</h3>
                         <p className="text-gray-600 mb-4">For no cost, our technology is trained to understand all of your menu items.</p>
                     </div>
 
                     <div className="bg-white rounded-lg p-6 shadow-md text-center flex flex-col items-center">
-                        <div className="text-4xl text-yellow-500 mb-4" />
+                        <GiClick className="text-4xl text-yellow-500 mb-4" />
                         <h3 className="text-2xl font-semibold mb-3">Easy Use</h3>
                         <p className="text-gray-600 mb-4">Activate the AI with a simple click to handle all of your orders.</p>
                     </div>
