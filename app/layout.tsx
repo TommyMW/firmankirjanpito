@@ -16,8 +16,8 @@ import Footer from "../components/footer"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Draive AI",
-  description: "Automate Drive-Thrus with AI.",
+  title: "Tee-Se-Itse-Kirjanpito",
+  description: "Tee-Se-Itse-Kirjanpito-Ohjelmisto.",
 };
 
 export default function RootLayout({ children }: 
@@ -25,7 +25,7 @@ export default function RootLayout({ children }:
   return (
     <html lang="en">
       <head>
-        <title>Draive - AI Drive-Thrus</title>
+        <title>Tee-Se-Itse-Kirjanpito</title>
       </head>
       <body>
         <div className="">
