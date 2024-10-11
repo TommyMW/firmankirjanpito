@@ -1,9 +1,8 @@
 "use client";
 import { useState } from "react";
-
-import { RiVoiceprintLine } from "react-icons/ri";
-import { GrCloudComputer } from "react-icons/gr";
-import { GiClick } from "react-icons/gi";
+// import { RiVoiceprintLine } from "react-icons/ri";
+// import { GrCloudComputer } from "react-icons/gr";
+// import { GiClick } from "react-icons/gi";
 
 export default function Home() {
     return (
@@ -22,7 +21,6 @@ export default function Home() {
                 </div>
             </div>
             
-
         </div>
 
     

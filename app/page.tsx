@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import img1 from '../images/accounting.png';
+import img1 from '../images/accounting1.png';
 import eu from '../images/eu.jpg';
 import us from '../images/us.jpg';
 import discount from '../images/discount.png';
@@ -19,7 +19,7 @@ export default function Home() {
             {/* <img src={us.src} alt="US Flag" className="absolute left-0 top-1/2 transform -translate-y-1/2 w-[420px] ml-[4%] pt-20 hidden md:block" style={{ userSelect: 'none', opacity: 0.1 }} /> */}
 
             <div className="container mx-auto p-8 flex flex-col md:flex-row items-center justify-center h-full mt-32 md:mt-0">
-                <div className="content z-10 md:w-1/2 text-center md:text-left">
+                <div className="content z-10 md:w-1/2 text-center md:text-left mt-20">
                     <h1 className="text-6xl font-bold mb-4 text-black">Tee-Se-Itse-Kirjanpito-Ohjelmisto</h1>
                     <p className="text-lg mb-6 w-[90%] mx-auto md:mx-0 text-black">Saat automaattisesti johdon raportit, kuten taseet ja tuloslaskelmat, valmiiksi.
                       Ohjelmisto on toistaiseksi ilmainen, mutta lähiaikoina alammae veloittamaan 10€/kk tai 68€/vuosi.</p>
@@ -38,7 +38,7 @@ export default function Home() {
                     </div>
                 </div>
                 
-                <img src={img1.src} alt="curve" className="rounded-lg w-80 mt-20 z-10 hidden md:block" style={{userSelect: 'none'}} />
+                <img src={img1.src} alt="curve" className="rounded-lg w-80 mt-16 z-10 hidden md:block" style={{userSelect: 'none'}} />
             </div>
 
  
@@ -49,11 +49,11 @@ export default function Home() {
     
 
 
-        <div className="mt-[-60px] container mx-auto px-10 py-16 bg-[#fcfcfc] rounded-3xl">
+        <div className="mt-[-0px] container mx-auto px-10 py-16 bg-[#fcfcfc] rounded-3xl">
 
             
 
-            <div className="container mx-auto w-[80%] mb-12 mt-16">
+            <div className="container mx-auto w-[80%] mb-12 mt-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
                     <div className="bg-white rounded-lg p-6 shadow-md text-center flex flex-col items-center">
                         <div className="text-4xl text-green-700 mb-4" />
@@ -79,16 +79,17 @@ export default function Home() {
             <h1 className="text-3xl font-bold mb-4 text-center text-black mt-24">
                 Mikäli tarvit apua niin ole meihin yhteydessä!
             </h1>
-            <p className="text-lg text-gray-600 mt-6 mb-8 text-center">
+            <p className="text-lg text-gray-600 mt-6 mb-8 text-center w-[900px] mx-auto">
               Tämän jälkeen kokeneet kirjanpitäjämme käyvät merkinnäsi läpi ja hyväksyvät ne tai kysyvät tarvittaessa lisätietoja, jotta kirjanpitosi vastaa kansallisten kirjanpitolakien, verolakien ja veroviraston vaatimuksia, 
               kuten liitteiden lähettäminen oikeassa muodossa veroilmoituksissa.
             </p>
             
 
             <div className="text-center mt-16">
-                <a href="/demo" className="bg-black text-white px-6 py-2 rounded inline-block">
+                <a href="/contact" className="bg-white text-black px-6 py-2 rounded border border-black inline-block ml-4">
                     Rekisteröidy
                 </a>
+
             </div>
         </div>
 
